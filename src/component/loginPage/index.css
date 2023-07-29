@@ -1,0 +1,39 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  height: 35vh;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputElement {
+  width: 25vw;
+  height: 5vh;
+  background-color: lightgray;
+  font-size: 13px;
+  border-radius: 12px;
+  margin: 12px;
+  border: 2px solid gray;
+}
+.sign-button {
+  width: 7vw;
+  font-size: 17px;
+  background-color: transparent;
+  border-radius: 10px;
+  color: blue;
+  border-width: 0px;
+}
+.heading {
+  font-size: 15px;
+  color: blue;
+}
